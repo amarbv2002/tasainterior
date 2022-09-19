@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px auto;
   padding: 0;
@@ -579,12 +583,30 @@ p.awesome_line {
   border: 3px solid black;
 }
 
+.emailing {
+  position: fixed;
+  right: 5px;
+  bottom: 150px;
+  width: 55px;
+  height: 55px;
+  background-color: #1b16aa;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  z-index: 9999;
+  align-items: center;
+}
+
+.emailing img {
+  width: 45px;
+}
+
 .calling {
   position: fixed;
   right: 5px;
-  bottom: 105px;
-  width: 70px;
-  height: 70px;
+  bottom: 85px;
+  width: 55px;
+  height: 55px;
   background-color: #175b9d;
   border-radius: 50%;
   display: flex;
@@ -594,15 +616,15 @@ p.awesome_line {
 }
 
 .calling img {
-  width: 30px;
+  width: 25px;
 }
 
 .whatsapp {
   position: fixed;
   right: 5px;
   bottom: 20px;
-  width: 70px;
-  height: 70px;
+  width: 55px;
+  height: 55px;
   background-color: #25d366;
   border-radius: 50%;
   display: flex;
@@ -612,5 +634,9 @@ p.awesome_line {
 }
 
 .whatsapp img {
-  width: 40px;
+  width: 35px;
+}
+
+.carousel-inner img {
+  max-height: 682px;
 }
